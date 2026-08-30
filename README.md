@@ -14,13 +14,15 @@ does not contain the private product code.
 
 ## Choose a path
 
-1. Ask a question or discuss a direction in
+1. See the controlled
+   [public project preview](https://f6z98p6zd7s5.github.io/neon-green-harness/).
+2. Ask a question or discuss a direction in
    [Discussions](https://github.com/f6z98p6zd7s5/neon-green-harness-community/discussions).
-2. Propose an improvement with the
+3. Propose an improvement with the
    [Idea form](https://github.com/f6z98p6zd7s5/neon-green-harness-community/issues/new?template=idea.yml).
-3. Report a public-preview bug with the
+4. Report a public-preview bug with the
    [Bug form](https://github.com/f6z98p6zd7s5/neon-green-harness-community/issues/new?template=bug.yml).
-4. Register public early-access interest with the
+5. Register public early-access interest with the
    [Interest form](https://github.com/f6z98p6zd7s5/neon-green-harness-community/issues/new?template=early-access.yml).
 
 ## Privacy boundary
