@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Neon Green Harness Community</title>
+  <desc id="desc">Neon green network nodes on a dark background.</desc>
+  <defs>
+    <radialGradient id="bg"><stop stop-color="#11351f"/><stop offset="1" stop-color="#030705"/></radialGradient>
+    <linearGradient id="line"><stop stop-color="#a2ff00"/><stop offset="1" stop-color="#00ff9d"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <g stroke="url(#line)" stroke-width="2" opacity="0.55">
+    <path d="M790 95l115 70 115-50 105 105-135 90-150-35-80-105z"/>
+    <path d="M905 165l85 145M1020 115l-30 195M790 95l200 215M840 275l180-160"/>
+  </g>
+  <g fill="#75ff2d" filter="url(#glow)">
+    <circle cx="790" cy="95" r="8"/><circle cx="905" cy="165" r="9"/><circle cx="1020" cy="115" r="8"/><circle cx="1125" cy="220" r="10"/><circle cx="990" cy="310" r="9"/><circle cx="840" cy="275" r="8"/>
+  </g>
+  <text x="68" y="125" fill="#8cff00" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="5">BUILD TOGETHER</text>
+  <text x="64" y="215" fill="#f4fff7" font-family="Arial, sans-serif" font-size="64" font-weight="800">Neon Green Harness</text>
+  <text x="68" y="273" fill="#c3d8c9" font-family="Arial, sans-serif" font-size="28">Ideas, evidence and practical AI autonomy.</text>
+  <rect x="68" y="322" width="560" height="4" rx="2" fill="url(#line)" filter="url(#glow)"/>
+</svg>

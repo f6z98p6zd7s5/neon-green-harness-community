@@ -1,0 +1,46 @@
+name: Public preview bug
+description: Report a reproducible problem visible in the public project experience.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: Do not paste secrets, private URLs, personal data or private source code.
+  - type: input
+    id: location
+    attributes:
+      label: Public page or feature
+      placeholder: Public URL or visible section name
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Open... 2. Select... 3. Observe..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device type
+      options:
+        - Desktop
+        - Mobile
+        - Tablet
+        - Other
+    validations:
+      required: true

@@ -1,0 +1,45 @@
+name: Early-access interest
+description: Publicly register interest without sharing private contact details.
+title: "[Early access]: "
+labels:
+  - early-access
+body:
+  - type: markdown
+    attributes:
+      value: This Issue is public. Do not enter your email, phone number, employer secrets or private project links. A private contact form will be added separately.
+  - type: dropdown
+    id: role
+    attributes:
+      label: Which perspective best describes you?
+      options:
+        - New AI builder
+        - Developer
+        - Product or business user
+        - Security or operations specialist
+        - Educator or community contributor
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: interests
+    attributes:
+      label: What would you like to help with?
+      options:
+        - label: Test the guided setup
+        - label: Suggest project improvements
+        - label: Review architecture or security
+        - label: Improve education and documentation
+        - label: Follow development updates
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What would make the project useful to you?
+    validations:
+      required: true
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Public posting confirmation
+      options:
+        - label: I understand this submission is public and contains no private data.
+          required: true

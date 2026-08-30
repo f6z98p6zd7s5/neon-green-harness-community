@@ -1,0 +1,32 @@
+name: Improvement idea
+description: Propose a user-visible improvement or a better project strategy.
+title: "[Idea]: "
+labels:
+  - idea
+body:
+  - type: markdown
+    attributes:
+      value: Everything submitted here is public. Do not include personal or confidential data.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is difficult today?
+      description: Explain the user problem before naming a tool.
+    validations:
+      required: true
+  - type: textarea
+    id: effect
+    attributes:
+      label: What result should feel different?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or example
+      description: Add a public link, reproduction or comparable project if available.
+  - type: textarea
+    id: risk
+    attributes:
+      label: Pre-mortem
+      description: How could this idea make the project slower, less safe or harder to use?
